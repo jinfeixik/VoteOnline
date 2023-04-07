@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+label .yong{
+	margin-bottom: 5px;
+	height: 24px;
+    width: 24px;
+	color: var(--color-semidark);
+	font-weight: 500;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    vertical-align: middle;
+}
+input[type="radio"]:azs + .yong {
+                    background-image: url(img/xx.jpg);
+                }
